@@ -1,0 +1,27 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Table */
+  .table {
+    margin-top: 2rem;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .table {
+      font-size: 0.875rem;
+    }
+  }

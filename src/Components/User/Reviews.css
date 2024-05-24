@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Form */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .form-control.is-invalid {
+    border-color: #dc3545;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* Buttons */
+  .btn-primary,
+  .btn-warning {
+    margin-right: 1rem;
+  }
+  
+  /* Table */
+  .table {
+    margin-top: 2rem;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .table {
+      font-size: 0.875rem;
+    }
+  }
